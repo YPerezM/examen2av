@@ -11,6 +11,7 @@ import twitter4j.TwitterFactory;
  * Clase para recobrar los twitts del morrazo
  * @author damian
  */
+//Recien cogido el proyecto
 public class StatusTwitter {
 
     /**
