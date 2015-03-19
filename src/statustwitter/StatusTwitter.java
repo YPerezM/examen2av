@@ -34,6 +34,8 @@ public class StatusTwitter {
         Paging pagina = new Paging();
 
         Query query = new Query("#Cangas");
+        //PROVOCANDO CONFLICTO
+        QueryResult result = mitwitter.search(query);
         QueryResult result = twitter.search(query);
         for (Status status : result.getTweets()) {
             System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
